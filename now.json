@@ -4,7 +4,8 @@
   "builds": [
     {
       "src": "src/main.ts",
-      "use": "@now/node"
+      "use": "@now/node",
+      "config": { "distDir": "dist" }
     }
   ],
   "routes": [
