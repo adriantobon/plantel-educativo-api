@@ -3,7 +3,7 @@
   "name": "plantel-educativo-api",
   "builds": [
     {
-      "src": "main.js",
+      "src": "dist/main.js",
       "use": "@now/node",
       "config": { "distDir": "dist" }
     }
