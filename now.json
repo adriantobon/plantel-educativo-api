@@ -3,8 +3,9 @@
   "name": "plantel-educativo-api",
   "builds": [
     {
-      "src": "dist/main.js",
-      "use": "@now/node"
+      "src": "package.json",
+      "use": "@now/node",
+      "config": { "distDir": "dist" }
     }
   ],
   "routes": [
