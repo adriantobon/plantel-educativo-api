@@ -5,10 +5,6 @@
     {
       "src": "package.json",
       "use": "@now/static-build"
-    },
-    {
-      "src": "main.js",
-      "use": "@now/node"
     }
   ],
   "routes": [
