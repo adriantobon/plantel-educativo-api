@@ -4,14 +4,13 @@
   "builds": [
     {
       "src": "src/main.ts",
-      "use": "@now/node",
-      "config": { "distDir": "dist" }
+      "use": "@now/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "main.js"
+      "dest": "dist/main.js"
     }
   ]
 }
