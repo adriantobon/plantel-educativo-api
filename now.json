@@ -3,8 +3,8 @@
   "name": "plantel-educativo-api",
   "builds": [
     {
-      "src": "package.json",
-      "use": "@now/static-build"
+      "src": "src/main.ts",
+      "use": "@now/node"
     }
   ],
   "routes": [
