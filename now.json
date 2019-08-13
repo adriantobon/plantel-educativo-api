@@ -3,7 +3,7 @@
   "name": "plantel-educativo-api",
   "builds": [
     {
-      "src": "api/main.js",
+      "src": "src/main.ts",
       "use": "@now/node"
     }
   ],
