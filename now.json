@@ -4,13 +4,13 @@
   "builds": [
     {
       "src": "src/main.ts",
-      "use": "@now/node"
+      "use": "@now/static-build"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api/main.js"
+      "dest": "dist/main.js"
     }
   ]
 }
