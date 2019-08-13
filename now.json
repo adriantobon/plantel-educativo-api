@@ -3,14 +3,14 @@
   "name": "plantel-educativo-api",
   "builds": [
     {
-      "src": "dist/main.js",
+      "src": "api/main.js",
       "use": "@now/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "dist/main.js"
+      "dest": "api/main.js"
     }
   ]
 }
